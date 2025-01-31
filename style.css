@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+form {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: 1px solid #0063cf; /* Blue border for fieldset */
+  border-radius: 8px;
+  padding: 20px; /* Added padding to prevent input fields from touching borders */
+  margin-bottom: 20px;
+}
+
+legend {
+  background-color: #e6f2ff;
+  color: #007bff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px; /* Adjusted gap for better spacing */
+  align-items: center;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+.hidden {
+  display: none;
+}
+
+label {
+  display: block;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+label span {
+  color: red;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* Phone number input styling */
+.phone-input {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Adjusted space between dropdown and input field */
+}
+
+.phone-input select {
+  width: 80px; /* Adjust width of country code dropdown */
+  flex-shrink: 0; /* Prevents it from shrinking */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
